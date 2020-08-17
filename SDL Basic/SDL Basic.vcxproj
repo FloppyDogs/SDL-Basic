@@ -21,7 +21,7 @@
   <ItemGroup>
     <ClCompile Include="Particle.cpp" />
     <ClCompile Include="Screen.cpp" />
-    <ClCompile Include="SDL Basic.cpp">
+    <ClCompile Include="ParticleExplosion.cpp">
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalUsingDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
@@ -40,6 +40,7 @@
     <ProjectGuid>{f771fd76-f927-40d5-ba57-e83ea6f37795}</ProjectGuid>
     <RootNamespace>SDLBasic</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Particle Explosion</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
